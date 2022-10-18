@@ -12,7 +12,7 @@ export class TabsComponent implements OnInit {
   swService = new StarWarsService;
 
   constructor(swService: StarWarsService) {
-    this.swService = swService;
+   this.swService = swService;
   }
 
   ngOnInit(): void {
