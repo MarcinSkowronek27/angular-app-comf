@@ -21,4 +21,9 @@ export class StarWarsService {
     })
     this.characters[pos].side = charInfo.side;
   }
+
+  addCharacter(name: string, side: string){
+    const newChar = {name: name, side: side};
+    this.characters.push(newChar);
+  }
 }
