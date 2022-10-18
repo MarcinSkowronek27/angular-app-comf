@@ -1,5 +1,3 @@
-import {Injectable} from "@angular/core";
-
 export class StarWarsService {
   private characters = [{
     name: 'Luke Skywalker', side: ''
