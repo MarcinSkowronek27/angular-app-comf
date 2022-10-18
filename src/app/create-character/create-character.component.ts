@@ -22,7 +22,9 @@ swService: StarWarsService;
   }
 
   onSubmit(submittedForm: any) {
-    console.log(submittedForm.value);
+    if (submittedForm.invalid) {
+      return;
+    }
     this.swService.addCharacter(submittedForm.value.name, submittedForm.value.side )
   }
 
