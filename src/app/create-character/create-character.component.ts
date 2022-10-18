@@ -27,5 +27,4 @@ swService: StarWarsService;
     }
     this.swService.addCharacter(submittedForm.value.name, submittedForm.value.side )
   }
-
 }
